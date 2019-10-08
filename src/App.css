@@ -1,4 +1,17 @@
+body {
+  background-color: #ddd !important
+}
+
+textarea {
+  height: 300px !important
+}
+
 .App {
+  width: 100%;
+}
+
+.title-section{
+  width: 100%;
   text-align: center;
 }
 
@@ -19,4 +32,25 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+audio {
+  width: 100%;
+}
+
+.row {
+  padding-top: 1.8rem;
+}
+.input-col {
+  padding-top: 1.8rem;
+}
+.output-col {
+  padding-top: 1.8rem;
+}
+.dropdown {
+  display: inline-block;
+  float: right;
+}
+.output-audio-container, .input-audio-container {
+  margin-top: 1rem;
 }
